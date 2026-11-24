@@ -4,16 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Blue Agave is a Mexican restaurant and cocktail lounge at 2081 Washington Street in Rossland, BC. Browse menu highlights, live events, hours and directions.">
-  <meta name="theme-color" content="#f6f0dc">
+  <meta name="theme-color" content="#100c14">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Blue Agave Mex Lounge &amp; Cocktails">
   <meta property="og:title" content="Blue Agave Rossland | Mexican Restaurant &amp; Cocktails">
   <meta property="og:description" content="Find Mexican food, cocktails and live events at Blue Agave on Washington Street in Rossland.">
   <title>Blue Agave Rossland | Mexican Restaurant &amp; Cocktails</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="after-dark.css">
+  <script src="motion.js" defer></script>
   <link rel="canonical" href="https://xsploit.github.io/blue-agave-rossland/">
   <meta property="og:url" content="https://xsploit.github.io/blue-agave-rossland/">
   <meta property="og:image" content="https://xsploit.github.io/blue-agave-rossland/assets/lounge-pool.webp">
@@ -70,124 +68,184 @@
   </script>
 </head>
 <body id="top">
-  <a class="skip" href="#main">Skip to main content</a>
-  <p class="concept-note"><span class="wrap">Independent website concept for educational purposes. Unaffiliated with Blue Agave.</span></p>
-  <header>
-    <div class="wrap top">
-      <a class="mark" href="#top" aria-label="Blue Agave home">Blue Agave</a>
-      <nav aria-label="Main navigation">
-        <a href="menu/">Menu</a>
-        <a href="#events">Events</a>
-        <a href="#visit">Visit</a>
-        <a class="social-nav" href="https://www.instagram.com/blueagave_mexlounge/">Instagram</a>
-      </nav>
-    </div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <p class="concept-bar">Independent Rossland restaurant guide. Unaffiliated with Blue Agave.</p>
+
+  <header class="top">
+    <a class="wordmark" href="#main" aria-label="Blue Agave, back to top">
+      <img src="assets/blue-agave-wordmark-dark.png" alt="" width="2172" height="724">
+    </a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#bar">Bar</a></li>
+        <li><a href="#menu">Kitchen</a></li>
+        <li><a href="#events">Nights</a></li>
+        <li><a href="#room">Room</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+    </nav>
+    <a class="top-call" href="tel:+17784575111">Call 778-457-5111</a>
   </header>
 
-  <main id="main">
-    <section class="wrap hero" aria-labelledby="restaurant-name">
-      <div>
-        <p class="label">Rossland, British Columbia</p>
-        <h1 id="restaurant-name"><span>Blue</span> <span>Agave</span></h1>
-        <p class="subtitle">Mex Lounge &amp; Cocktails</p>
-        <div class="actions">
-          <a class="button" href="menu/">See menu highlights</a>
-          <a class="button outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=49.0778972%2C-117.8005573">Get directions</a>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="title">
+      <img class="hero-img" src="assets/lounge-pool.webp"
+           alt="The pool room inside Blue Agave in Rossland, with a pool table in front of the lounge's painted mural."
+           fetchpriority="high">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Rossland, British Columbia</p>
+        <h1 id="title" class="hero-logo">
+          <img src="assets/blue-agave-wordmark-dark.png" alt="Blue Agave" width="2172" height="724">
+        </h1>
+        <div class="hero-details">
+          <p class="hero-subtitle">Mex Lounge &amp; Cocktails</p>
+          <p class="lede">Margaritas at the bar, birria from the kitchen, and a pool table under the agave mural.</p>
+          <div class="cta">
+            <a class="btn btn-warm" href="#menu">Explore the menu <span aria-hidden="true">↓</span></a>
+            <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=49.0778972%2C-117.8005573">Get directions</a>
+          </div>
+          <p class="hero-addr"><span aria-hidden="true">◐</span> 2081 Washington Street, Rossland, BC V0G 1Y0</p>
         </div>
       </div>
-      <figure>
-        <img src="assets/lounge-pool.webp" width="1050" height="1400" fetchpriority="high" alt="Blue Agave’s teal pool table, string lights and mural">
-        <figcaption>Inside Blue Agave · <a href="https://www.instagram.com/blueagave_mexlounge/p/Dfv0HGdm46I/">Lounge photo</a></figcaption>
+      <p class="credit hero-credit"><a href="https://www.instagram.com/blueagave_mexlounge/p/Dfv0HGdm46I/">Pool room photo by Blue Agave</a></p>
+    </section>
+
+    <section id="bar" class="chapter bar" aria-labelledby="bar-h">
+      <figure class="bar-photo">
+        <img src="assets/anika-cocktails.webp"
+             alt="Anika behind the bar at Blue Agave, preparing cocktails."
+             width="900" height="1200" loading="lazy">
+        <figcaption>Anika at the bar. Photo via <a href="https://www.instagram.com/blueagave_mexlounge/reel/Df07MLkArcn/">@blueagave_mexlounge</a></figcaption>
       </figure>
-    </section>
-
-    <div class="tile" aria-hidden="true"></div>
-
-    <div class="quick-visit wrap" aria-label="Blue Agave at a glance">
-      <a href="#visit"><span class="label">Address</span><strong>2081 Washington Street</strong></a>
-      <a href="#visit"><span class="label">Hours on Google Maps</span><strong>Mon–Sat · 3–10 p.m.</strong></a>
-      <a href="tel:+17784575111"><span class="label">Call the lounge</span><strong>778-457-5111</strong></a>
-    </div>
-
-    <section class="menu" id="menu" aria-labelledby="menu-title">
-      <div class="wrap">
-        <div>
-          <p class="label">Cocina &amp; cocktails</p>
-          <h2 id="menu-title">Food &amp; drinks</h2>
-          <p class="menu-copy">Jalisco-style birria, chicken enchiladas, and a Piña Colada Margarita from the bar. Dine in, take out, or call about catering.</p>
-          <div class="actions">
-            <a class="button" href="menu/#food">Food menu</a>
-            <a class="button outline" href="menu/#drinks">Drinks menu</a>
-          </div>
-        </div>
-        <figure class="food">
-          <img src="assets/anika-cocktails.webp" width="720" height="1280" alt="Anika mixing a cocktail behind the bar at Blue Agave" loading="lazy">
-          <figcaption>Anika behind the bar · <a href="https://www.instagram.com/blueagave_mexlounge/reel/Df07MLkArcn/">Watch the reel</a></figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="nights" id="events" aria-labelledby="events-title">
-      <div class="wrap">
-        <h2 id="events-title">At the lounge</h2>
-        <article class="event event-feature">
-          <p class="label"><time datetime="2026-11-27">Friday, November 27</time></p>
-          <h3>My Fake Wedding Party</h3>
-          <p>Featuring DJ Hamster Guy.</p>
-          <a href="https://www.facebook.com/photo.php?fbid=1121457590638905">Lounge announcement on Facebook</a>
+      <div class="bar-copy">
+        <p class="kicker">The bar</p>
+        <h2 id="bar-h">Margaritas after dark</h2>
+        <article class="pour">
+          <h3>Piña Colada Margarita</h3>
+          <p>The piña colada and the margarita in one glass, as featured by the lounge on Instagram.</p>
+          <a href="https://www.instagram.com/blueagave_mexlounge/reel/Df07MLkArcn/">Watch the reel</a>
         </article>
-        <div class="events">
-          <article class="event">
-            <img src="assets/pillow-talk.webp" width="940" height="470" alt="" loading="lazy">
-            <p class="label"><time datetime="2026-12-07T19:30:00-08:00">Monday, December 7 · 7:30 p.m.</time></p>
-            <h3>Pillow Talk</h3>
-            <p>Stand-up comedy with Niki Mohrdar and Cass Furman. Doors at 5:30 p.m.</p>
-            <a href="https://www.eventbrite.ca/e/pillow-talk-a-stand-up-comedy-show-tickets-2004402504849">Pillow Talk event details</a>
-          </article>
-          <article class="event">
-            <img src="assets/latin-lovers.webp" width="940" height="788" alt="" loading="lazy">
-            <p class="label"><time datetime="2026-12-11T21:00:00-08:00">Friday, December 11 · 9 p.m.</time></p>
-            <h3>The Latin Lovers</h3>
-            <p>Seven musicians playing cumbia, flamenco and Latin fusion.</p>
-            <a href="https://www.eventbrite.com/e/the-latin-lovers-live-at-blue-agave-tickets-2004963567001">The Latin Lovers event details</a>
-          </article>
-        </div>
+        <aside class="wed" aria-labelledby="wed-h">
+          <h3 id="wed-h">Wednesdays</h3>
+          <p class="wed-deal"><span>$10</span> cocktails &amp; margaritas <span>$5</span> local beer</p>
+          <p class="note">As announced in the lounge's <a href="https://www.instagram.com/blueagave_mexlounge/reel/Df07MLkArcn/">Piña Colada Margarita reel</a>. Please <a href="tel:+17784575111">call to confirm</a> what's included before you go.</p>
+        </aside>
       </div>
     </section>
 
-    <section class="visit" id="visit" aria-labelledby="visit-title">
-      <div class="wrap">
-        <div>
-          <p class="label">Downtown Rossland</p>
-          <h2 id="visit-title">Come by</h2>
-          <figure class="visit-photo">
-            <img src="assets/chamber-visit.webp" width="1400" height="1161" alt="A group at Blue Agave beside the pool table and the Frida Kahlo mural" loading="lazy">
-            <figcaption>Blue Agave’s opening · <a href="https://www.instagram.com/trail.chamber/p/DfaLZmAzGK5/">Trail &amp; District Chamber</a></figcaption>
-          </figure>
-        </div>
-        <div>
-          <address>2081 Washington Street<br>Rossland, BC V0G 1Y0</address>
-          <dl class="hours">
-            <dt>Mon–Sat</dt><dd>3–10 p.m.</dd>
-            <dt>Sunday</dt><dd>Closed</dd>
-          </dl>
-          <p><a href="tel:+17784575111">778-457-5111</a></p>
-          <div class="actions">
-            <a class="button" href="https://www.google.com/maps/dir/?api=1&amp;destination=49.0778972%2C-117.8005573">Get directions</a>
-            <a class="button outline" href="https://www.google.com/maps?cid=7640500995493274756">Photos &amp; hours</a>
+    <section id="menu" class="chapter kitchen" aria-labelledby="kitchen-h">
+      <div class="section-head">
+        <h2 id="kitchen-h">From the kitchen</h2>
+        <p>Featured plates from Blue Agave’s Instagram. <a href="menu/">More food and drink highlights</a>.</p>
+      </div>
+      <ul class="dishes">
+        <li>
+          <img src="assets/food-tacos.webp" width="960" height="960" alt="Tacos, quesadillas, guacamole and enchiladas on Blue Agave’s table" loading="lazy" decoding="async">
+          <h3>Tacos &amp; quesadillas</h3>
+          <p>Crisp tortillas, guacamole and house-style salsas.</p>
+          <a href="https://www.instagram.com/blueagave_mexlounge/p/DeivigbgzY_/" aria-label="Blue Agave’s Instagram post featuring tacos and quesadillas">Blue Agave on Instagram <span aria-hidden="true">↗</span></a>
+        </li>
+        <li>
+          <img src="assets/food-enchiladas.webp" width="960" height="960" alt="Chicken enchiladas in red salsa with rice and beans on a blue and white plate" loading="lazy" decoding="async">
+          <h3>Chicken enchiladas</h3>
+          <p>Mozzarella, red or green salsa, Mexican rice and beans.</p>
+          <a href="https://www.instagram.com/blueagave_mexlounge/p/DemjTHhg1Za/" aria-label="Blue Agave’s Instagram post featuring chicken enchiladas">Blue Agave on Instagram <span aria-hidden="true">↗</span></a>
+        </li>
+        <li>
+          <img src="assets/food-carnitas.webp" width="960" height="960" alt="Carnitas burrito in salsa, topped with crema and pink pickled onions" loading="lazy" decoding="async">
+          <h3>Carnitas burrito</h3>
+          <p>A past pork carnitas special. Call for today’s specials.</p>
+          <a href="https://www.instagram.com/blueagave_mexlounge/p/DeVKhzIBe8z/" aria-label="Blue Agave’s Instagram post featuring the carnitas burrito special">Blue Agave on Instagram <span aria-hidden="true">↗</span></a>
+        </li>
+      </ul>
+      <p class="kitchen-extra">Also from Blue Agave’s kitchen <a href="https://www.instagram.com/blueagave_mexlounge/reel/DeSUfLkyuOT/">Jalisco-style birria</a>.</p>
+    </section>
+
+    <section id="events" class="chapter nights" aria-labelledby="nights-h">
+      <div class="section-head">
+        <h2 id="nights-h">Nights at the lounge</h2>
+        <p>Listed as of November 23, 2026. Follow each link for details and tickets.</p>
+      </div>
+      <ul class="marquee">
+        <li>
+          <time datetime="2026-11-27"><span class="m">Nov</span><span class="d">27</span></time>
+          <div>
+            <h3>My Fake Wedding Party</h3>
+            <p>With DJ Hamster Guy.</p>
+            <a href="https://www.facebook.com/photo.php?fbid=1121457590638905">Event post on Facebook</a>
           </div>
-          <p class="sources">Hours from <a href="https://www.google.com/maps?cid=7640500995493274756">Google Maps</a>. The <a href="https://business.trailchamber.bc.ca/list/member/blue-agave-mex-lounge-cocktails-inc-1744">Trail &amp; District Chamber</a> confirms the Washington Street address. The lounge’s <a href="https://www.facebook.com/profile.php?id=100083240226908">Facebook profile</a> lists 3–9 p.m. daily. Call ahead to confirm today’s hours.</p>
+        </li>
+        <li>
+          <time datetime="2026-12-07T19:30"><span class="m">Dec</span><span class="d">7</span></time>
+          <div>
+            <h3>Pillow Talk</h3>
+            <p>A stand-up comedy show · 7:30&nbsp;p.m.</p>
+            <a href="https://www.eventbrite.ca/e/pillow-talk-a-stand-up-comedy-show-tickets-2004402504849">Tickets on Eventbrite</a>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-12-11T21:00"><span class="m">Dec</span><span class="d">11</span></time>
+          <div>
+            <h3>The Latin Lovers</h3>
+            <p>Live at Blue Agave · 9&nbsp;p.m.</p>
+            <a href="https://www.eventbrite.com/e/the-latin-lovers-live-at-blue-agave-tickets-2004963567001">Tickets on Eventbrite</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="room" class="chapter room" aria-labelledby="room-h">
+      <figure class="room-photo">
+        <img src="assets/chamber-visit.webp"
+             alt="Trail and District Chamber of Commerce visit marking the opening of Blue Agave in Rossland."
+             width="1200" height="900" loading="lazy">
+        <figcaption>Opening visit. Photo: <a href="https://www.instagram.com/trail.chamber/p/DfaLZmAzGK5/">Trail &amp; District Chamber of Commerce</a></figcaption>
+      </figure>
+      <div class="room-copy">
+        <h2 id="room-h">On Washington Street</h2>
+        <p>Bar, dining and a pool table under the mural, in the middle of downtown Rossland. Blue Agave is a member of the <a href="https://business.trailchamber.bc.ca/list/member/blue-agave-mex-lounge-cocktails-inc-1744">Trail &amp; District Chamber</a> and listed by <a href="https://www.tourismrossland.com/venue/blue-agave-mex-lounge/">Tourism Rossland</a>.</p>
+      </div>
+    </section>
+
+    <section id="visit" class="chapter visit" aria-labelledby="visit-h">
+      <div class="section-head">
+        <h2 id="visit-h">Visit Blue Agave</h2>
+      </div>
+      <div class="visit-grid">
+        <div class="card">
+          <h3>Address</h3>
+          <address>2081 Washington Street<br>Rossland, BC V0G 1Y0</address>
+          <p><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=49.0778972%2C-117.8005573">Get directions</a></p>
+        </div>
+        <div class="card" id="hours">
+          <h3>Hours</h3>
+          <p>The two public listings differ:</p>
+          <dl class="hours">
+            <dt><a href="https://www.google.com/maps?cid=7640500995493274756">Google Maps</a></dt>
+            <dd>Mon–Sat 3–10&nbsp;p.m. · Sunday closed</dd>
+            <dt><a href="https://www.facebook.com/profile.php?id=100083240226908">Facebook</a></dt>
+            <dd>Daily 3–9&nbsp;p.m.</dd>
+          </dl>
+          <p class="note">Please call ahead to confirm tonight's hours.</p>
+        </div>
+        <div class="card">
+          <h3>Call</h3>
+          <p><a class="big-tel" href="tel:+17784575111">778-457-5111</a></p>
+          <h3>Follow</h3>
+          <ul class="links">
+            <li><a href="https://www.instagram.com/blueagave_mexlounge/">Instagram @blueagave_mexlounge</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100083240226908">Facebook</a></li>
+          </ul>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap">
-      <a class="mark" href="#top">Blue Agave</a>
-      <small>Independent Rossland restaurant website concept.</small>
-      <a href="https://www.instagram.com/blueagave_mexlounge/">Instagram</a>
-    </div>
+  <footer class="foot">
+    <p>Independent website concept for Blue Agave Mex Lounge &amp; Cocktails.</p>
+    <p><a href="menu/">Food &amp; drinks</a> <a href="https://www.instagram.com/blueagave_mexlounge/">Instagram</a></p>
   </footer>
 </body>
 </html>
