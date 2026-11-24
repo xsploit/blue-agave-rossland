@@ -7,9 +7,15 @@ Independent, unaffiliated educational website concept for a Mexican restaurant a
 ## Sources
 
 - The Washington Street address is listed by the [Trail & District Chamber](https://business.trailchamber.bc.ca/list/member/blue-agave-mex-lounge-cocktails-inc-1744) and [Tourism Rossland](https://www.tourismrossland.com/venue/blue-agave-mex-lounge/).
-- Hours are attributed to [Google Maps](https://www.google.com/maps?cid=7640500995493274756). The telephone number also appears on [the lounge's Facebook page](https://www.facebook.com/106942612054664).
+- [Google Maps](https://www.google.com/maps?cid=7640500995493274756) and [the lounge's Facebook page](https://www.facebook.com/profile.php?id=100083240226908) list the same phone number and different closing times. Both schedules are attributed in the site copy.
 - Food and drinks link to the [lounge's Instagram](https://www.instagram.com/blueagave_mexlounge/). The [Uber Eats listing](https://www.ubereats.com/ca/store/blue-agave-tequila-grill/0rQOXJSQW9iFT_zVoxbObA) specifies 1999 2 Avenue.
 - Image and event sources appear beside the relevant content. The full Washington Street menu and regular prices remain unverified.
+
+## Kootenay search references
+
+- [Cantina del Centro in Nelson](https://cantinadelcentro.ca/nelson/) gives its food and drink menus separate links and lists prices in readable HTML.
+- [El Taco in Nelson](https://eltaco.ca/menu/) has a dedicated page with dish names, prices and categories.
+- [Zicatela in Castlegar](https://zicatela.ca/) puts its menu and contact links next to photos of the restaurant and staff.
 
 ## Search visibility
 

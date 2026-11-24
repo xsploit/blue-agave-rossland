@@ -130,3 +130,4 @@ footer small { font-size: .81rem; }
 .menu-listing { padding-bottom: clamp(2.75rem, 7vw, 5.6rem); }
 .menu-listing h2 { color: var(--blue); font-size: clamp(1.7rem, 4vw, 2.6rem); }
 .menu-listing p { max-width: 47rem; margin-top: .6rem; }
+.event-feature { margin-bottom: 1.6rem; }
