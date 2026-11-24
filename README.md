@@ -2,7 +2,7 @@
 
 Independent, unaffiliated educational website concept for a Mexican restaurant and cocktail lounge in Rossland, BC.
 
-[Site](https://xsploit.github.io/blue-agave-rossland/) | [Menu highlights](https://xsploit.github.io/blue-agave-rossland/menu/) | [Sitemap](https://xsploit.github.io/blue-agave-rossland/sitemap.xml)
+[Site](https://xsploit.github.io/blue-agave-rossland/) | [Menu highlights](https://xsploit.github.io/blue-agave-rossland/#menu) | [Sitemap](https://xsploit.github.io/blue-agave-rossland/sitemap.xml)
 
 ## Sources
 
@@ -19,9 +19,9 @@ Independent, unaffiliated educational website concept for a Mexican restaurant a
 
 ## Search visibility
 
-The first target is **Blue Agave Rossland menu**, followed by **Mexican restaurant Rossland**. Dish names, address, hours with sources, and directions are in the HTML. The home and menu pages link to each other and have their own canonical URLs. The sitemap lists both pages, their content update dates, and the featured photos.
+The first target is **Blue Agave Rossland menu**, followed by **Mexican restaurant Rossland**. The homepage includes dish names, address, sourced hours, and directions. The former `/menu/` page redirects to the homepage. The sitemap lists the homepage and featured photos.
 
-1. Verify the [GitHub Pages URL-prefix property](https://xsploit.github.io/blue-agave-rossland/) in Search Console with Google’s HTML file or meta tag. Submit the [sitemap](https://xsploit.github.io/blue-agave-rossland/sitemap.xml), inspect both pages, and track clicks, impressions and position by query over time. [Ownership verification](https://support.google.com/webmasters/answer/9008080) · [Request a recrawl](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
+1. Verify the [GitHub Pages URL-prefix property](https://xsploit.github.io/blue-agave-rossland/) in Search Console with Google’s HTML file or meta tag. Submit the [sitemap](https://xsploit.github.io/blue-agave-rossland/sitemap.xml), inspect the homepage, and track clicks, impressions and position by query over time. [Ownership verification](https://support.google.com/webmasters/answer/9008080) · [Request a recrawl](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl)
 2. Keep the menus, address and hours current. The lounge’s authorized representative can reconcile the conflicting hours on its public profiles and keep its Business Profile up to date. Google’s local results depend on relevance, distance and prominence. [Google local ranking](https://support.google.com/business/answer/7091)
 3. Keep dish and venue details easy to cite, with links to the lounge’s posts and local sources. Google’s AI features use the same search eligibility requirements. OpenAI uses OAI-SearchBot for ChatGPT Search. The host-level robots.txt returned HTTP 404 on November 24, 2026. Crawler rules on this host apply from its domain root. [Google AI search](https://developers.google.com/search/docs/appearance/ai-features) · [Robots file scope](https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec) · [OpenAI crawlers](https://developers.openai.com/api/docs/bots)
 4. In Bing Webmaster Tools, verify the site, submit the same sitemap, and check the AI Performance report for Copilot and Bing citations when data is available. [Bing AI Performance](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c)
