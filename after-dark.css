@@ -97,7 +97,7 @@ address { font-style: normal; }
 }
 .chapter .section-head { margin-bottom: clamp(1.65rem, 5vw, 3.5rem); }
 .section-head p { max-width: 52ch; margin-top: .9rem; }
-.bar, .room { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1fr); gap: clamp(1.5rem, 7vw, 7rem); align-items: center; }
+.bar, .room, .menu-grid { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1fr); gap: clamp(1.5rem, 7vw, 7rem); align-items: center; }
 .bar { --panel: radial-gradient(ellipse at 18% 49%, #462229 0%, #220f1d 50%, #180e19 100%); }
 .bar-photo img { max-height: 38rem; aspect-ratio: 4 / 5; object-position: 50% 42%; }
 .bar-copy h2 { max-width: 9ch; }
@@ -167,7 +167,7 @@ address { font-style: normal; }
   .hero { min-height: max(32rem, calc(100svh - var(--nav-height) - 1.9rem)); }
   .hero-img { object-position: 62% 45%; }
   .hero-shade { background: linear-gradient(180deg, #100c1410 9%, #100c142c 28%, #100c148f 55%, #100c14 100%); }
-  .bar, .room, .visit-grid { grid-template-columns: 1fr; }
+  .bar, .room, .menu-grid, .visit-grid { grid-template-columns: 1fr; }
   .bar-copy { grid-row: 1; }
   .bar-photo img { aspect-ratio: 4 / 3; }
   .dishes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -178,6 +178,25 @@ address { font-style: normal; }
 @media (max-width: 360px) {
   .top-call, .top nav a { font-size: .75rem; }
 }
+
+.menu-hero { min-height: 0; }
+.menu-hero .hero-img { object-position: 50% 46%; }
+.menu-hero .hero-shade { background: linear-gradient(180deg, #100c1482, #100c14c4 54%, #100c14); }
+.menu-hero .hero-copy {
+  display: flex; flex-direction: column; align-items: center;
+  padding-block: clamp(3.5rem, 8vw, 6rem);
+}
+.menu-hero .hero-logo { width: min(100%, 23rem); }
+.menu-title { margin-top: .35em; font-size: clamp(2.55rem, 6vw, 5.25rem); letter-spacing: -.05em; }
+.menu-food-photo img { aspect-ratio: 5 / 4; }
+.menu-food-photo figcaption { color: inherit; }
+.menu-food-photo figcaption a { color: inherit; }
+.menu-items article { border-top: 1px solid #26171243; padding: 1rem 0; }
+.menu-items article:last-child { border-bottom: 1px solid #26171243; }
+.menu-items p { margin-top: .45rem; }
+.chapter .menu-section-copy { margin-bottom: 0; }
+.menu-visit-actions { justify-content: start; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
